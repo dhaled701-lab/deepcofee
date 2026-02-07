@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #3e2723;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #6f4e37;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .search-box {
+      text-align: center;
+      margin: 30px;
+    }
+
+    .search-box input {
+      padding: 10px;
+      width: 250px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      width: 200px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>☕ Coffee Bliss</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Fresh Coffee & Tasty Snacks</h2>
+  <p>Search your favorite coffee or food</p>
+</div>
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search coffee or food..." onkeyup="searchFood()">
+  <div class="hero">
+  <h2>Welcome to Coffee Bliss ☕</h2>
+  <p>Your daily dose of happiness, freshness & flavor</p>
+  <p><b>Open:</b> 8 AM – 10 PM | <b>Location:</b> Nashik</p>
+</div>
+
+<div class="section">
+  <h2>Why Coffee Bliss?</h2>
+  <p>
+    We serve freshly brewed coffee made from premium beans,
+    delicious snacks, and mouth-watering desserts.
+    Perfect for friends, study time, or relaxing moments.
+  </p>
+</div>
+
+<div class="section">
+  <h2>🔥 Best Sellers</h2>
+  <div class="menu">
+    <div class="card">
+      <h3>Cappuccino</h3>
+      <p>Rich & creamy coffee</p>
+      <p><b>₹150</b></p>
+    </div>
+    <div class="card">
+      <h3>Chocolate Brownie</h3>
+      <p>Soft & chocolaty</p>
+      <p><b>₹120</b></p>
+    </div>
+    <div class="card">
+      <h3>Cold Coffee</h3>
+      <p>Chilled & refreshing</p>
+      <p><b>₹180</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>📋 Our Full Menu</h2>
+  <div class="menu" id="menuList">
+
+    <div class="card">
+      <h3>Espresso</h3>
+      <p>Strong & bold coffee shot</p>
+      <p><b>₹120</b></p>
+    </div>
+
+    <div class="card">
+      <h3>Latte</h3>
+      <p>Smooth coffee with milk</p>
+      <p><b>₹160</b></p>
+    </div>
+
+    <div class="card">
+      <h3>Cold Coffee</h3>
+      <p>Sweet, chilled coffee</p>
+      <p><b>₹180</b></p>
+    </div>
+
+    <div class="card">
+      <h3>Croissant</h3>
+      <p>Buttery & flaky snack</p>
+      <p><b>₹90</b></p>
+    </div>
+
+    <div class="card">
+      <h3>Sandwich</h3>
+      <p>Fresh veggies & cheese</p>
+      <p><b>₹110</b></p>
+    </div>
+
+    <div class="card">
+      <h3>Chocolate Cake</h3>
+      <p>Rich & moist dessert</p>
+      <p><b>₹200</b></p>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+<div class="section">
+  <h2>Our Menu</h2>
+  <div class="menu" id="menuList">
+
+    <div class="card"><h3>Espresso</h3><p>Strong coffee</p></div>
+    <div class="card"><h3>Cappuccino</h3><p>Creamy coffee</p></div>
+    <div class="card"><h3>Latte</h3><p>Milky coffee</p></div>
+    <div class="card"><h3>Cold Coffee</h3><p>Chilled & sweet</p></div>
+
+    <div class="card"><h3>Chocolate Cake</h3><p>Rich dessert</p></div>
+    <div class="card"><h3>Brownie</h3><p>Chocolate delight</p></div>
+    <div class="card"><h3>Croissant</h3><p>Buttery snack</p></div>
+    <div class="card"><h3>Sandwich</h3><p>Fresh & tasty</p></div>
+
+  </div>
+</div>
+
+<footer>
